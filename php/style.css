@@ -1,0 +1,185 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@200&display=swap");
+
+body {
+    /*background-color: rgb(255, 255, 255);*/
+    background-image: url("dan-k-i0hKLkbNzoU-unsplash.jpg");
+    font-family: "Ubuntu", sans-serif;
+    height: auto;
+    background-size: contain;
+    background-repeat:repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 0px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+} 
+
+li {
+    float: left;
+    margin: 0;
+    padding-top: 0;
+}
+
+li a {
+    padding-top: 0;
+    display: block;
+    padding: 15px 11px;
+    text-decoration: none;
+    color: rgb(99, 88, 219);
+    margin: 0;
+}
+
+li a:hover {
+    color: white;
+    background-color: rgb(99, 88, 219);
+}
+
+.return {
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+}
+
+.return a {
+    padding: 8px;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    color: rgb(99, 88, 219);
+    margin:0px;
+}
+
+.return:hover {
+    background-color: rgb(99, 88, 219);
+}
+
+.return a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.refresh {
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 10px; 
+    margin-bottom: 50px;
+}
+
+.refresh a {
+    padding: 8px;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    color: rgb(99, 88, 219);
+    margin:0px;
+}
+
+.refresh:hover {
+    background-color: rgb(99, 88, 219);
+}
+
+.refresh a:hover {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(99, 88, 219);
+}
+
+button {
+    font-family: "Ubuntu", sans-serif;
+    background-color: white;
+    color: rgb(99, 88, 219);
+    border: 1px solid rgb(154, 154, 154);
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(99, 88, 219);
+    border: 2px solid rgb(99, 88, 219);
+    color: white;
+}
+
+.segment {
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+    height: 750px;
+    background-color: rgba(255, 255, 255, 0.789);
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+}
+
+.float-left-child {
+    width: 60%;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.container-table{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+table {
+    display: block;
+    overflow-y: scroll;
+    height: 80%;
+    border-spacing: 0;
+    width: 100%; 
+    table-layout: fixed;
+    text-align: center;
+} 
+
+table td {width: 130px;} 
+td:nth-child(2) {width: 280px;}
+td:nth-child(3) {width: 280px;}
+tr:nth-child(even) {background-color: rgb(243, 243, 243);} 
+tr:nth-child(odd) {background-color: rgb(230, 230, 230);} 
+
+tr:nth-child(1) {
+    background-color: rgb(99, 88, 219);
+    color: white;
+} 
+
+tr:hover {
+    background-color: rgb(99, 88, 219);
+    color: white;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
