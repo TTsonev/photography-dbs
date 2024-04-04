@@ -98,25 +98,6 @@ class DatabaseHelper {
             prepStmt.executeBatch();
             prepStmt.clearParameters();
 
-
-            //Flavor
-            /*
-                Flavor PK (flavor_id, brand_id)
-
-                String[] flavor_list = vanilla, chocolate, ....
-                ResultSet brands = SQL...   // contains all entries in the Brand table 
-                while (brands.hasnext) {
-                    for(5) {
-                        thingy 
-                            -> flavor_id = default/random
-                            -> taste = flavor_list[random number]
-                            -> brand_id = brands.getInt(1)      // get brand_id of each entry in Brand
-                        INSERT into FLAVOR thingy
-                    }
-                }
-
-            */
-
             //Foto
             String[] locations = {"Wien", "Graz", "Salzburg", "Berlin", "Paris", "Madrid", "Barcelona", "Rom", "Sofia", "London", "New York", "Los Angeles", "Oslo", "Helsinki", "Cape Town", "Sydney", "Rio de Janeiro"};
             String insertFoto = "INSERT INTO foto VALUES(?, ?, ?, ?, ?)";
