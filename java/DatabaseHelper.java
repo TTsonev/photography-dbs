@@ -6,9 +6,9 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 class DatabaseHelper {
-    private static final String DB_CONNECTION_URL = "jdbc:oracle:thin:@oracle19.cs.univie.ac.at:1521:orclcdb";
-    private static final String USER = "a12127140";
-    private static final String PASS = "Lami1DBS22";
+    private static final String DB_CONNECTION_URL = "...";
+    private static final String USER = "...";
+    private static final String PASS = "...";
     private static final String CLASSNAME = "oracle.jdbc.driver.OracleDriver";
     private static PreparedStatement prepStmt;
     private static Connection con;
